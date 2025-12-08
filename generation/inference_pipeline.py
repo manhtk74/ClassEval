@@ -311,7 +311,7 @@ class InferencePipeline:
             for cont in tqdm(self.file_cont):
                 task_id = cont['task_id']
                 class_name = cont['class_name']
-                method_info = cont['method_info']
+                method_info = cont['methods_info']
                 imports = '\n'.join(cont['import_statement'])
                 class_init = InferenceUtil.add_desc_to_init(cont['class_description'], cont['class_constructor'])
                 for method in method_info:

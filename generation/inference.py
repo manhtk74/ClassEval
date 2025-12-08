@@ -6,7 +6,7 @@ def args_init():
     parser.add_argument(
         "--data_path",
         type=str,
-        default="../data/ClassEval_data.json",
+        default="./data/ClassEval_data_2.json",
         help="ClassEval data",
     )
     parser.add_argument(
@@ -18,7 +18,7 @@ def args_init():
     parser.add_argument(
         "--output_path",
         type=str,
-        default="model_output.json",
+        default="Qwen_zeroshot.json",
         help="output file path",
     )
     parser.add_argument(
@@ -31,21 +31,22 @@ def args_init():
     parser.add_argument(
         "--generation_strategy",
         type=int,
-        default=0,
-        help="Holistic = 0, Incremental = 1, Compositional = 2, In-file context=3, Zero-shot (Function signature only)=5",
+        default=4,
+        help="Holistic = 0, Incremental = 1, Compositional = 2, In-file context=3, Zero-shot (Function signature only)=4",
     )
     parser.add_argument(
         "--model",
         type=int,
-        default=1,
+        default=16,
         help="Instruct_CodeGen = 0, WizardCoder = 1, Instruct_StarCoder = 2, InCoder = 3, \
         PolyCoder = 4, SantaCoder = 5, Vicuna = 6, ChatGLM = 7, GPT_3_5 = 8, GPT_4 = 9, others = 10, \
-        Magicoder = 11, CodeGeeX2 = 12, DeepSeekCoder_inst = 13, Gemini_Pro = 14, CodeLlama_13b_inst = 15",
+        Magicoder = 11, CodeGeeX2 = 12, DeepSeekCoder_inst = 13, Gemini_Pro = 14, CodeLlama_13b_inst = 15 \
+        Qwen2.5Coder = 16",
     )
     parser.add_argument(
         "--checkpoint",
         type=str,
-        default="WizardLM/WizardCoder-15B-V1.0",
+        default="Qwen/Qwen2.5-Coder-3B-Instruct",
         help="checkpoint of the model",
     )
     parser.add_argument(
