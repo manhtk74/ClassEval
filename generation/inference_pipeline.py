@@ -98,6 +98,11 @@ class InferencePipeline:
         with open(self.output_path, 'w', encoding = 'utf-8') as f:
             json.dump(result, f, indent=4)
 
+    def append_result(self, result):
+        with open(self.output_path, 'a', encoding='utf-8') as f:
+            json_string = json.dumps(result, ensure_ascii=False)
+            f.write(json_string +  "\n")
+
     def model_generate(self, prompt):
         if self.model_name == ModelName.GPT_3_5.value or self.model_name == ModelName.GPT_4.value:
             openai.api_key = self.openai_key
@@ -158,21 +163,27 @@ class InferencePipeline:
                 instruction = f"Please complete the class {class_name} in the following code."
                 instruction = instruction + '\n' + skeleton
                 prompt = InferenceUtil.generate_prompt(instruction, self.model_name)
-
         elif strategy == GenerationStrategy.Incremental:
             if self.model_name == ModelName.PolyCoder.value or self.model_name == ModelName.SantaCoder.value:
                 prompt = info['skeleton']
             else:
                 prompt = info['instruction'] + info['skeleton']
                 prompt = InferenceUtil.generate_prompt(prompt, self.model_name)
-
         elif strategy == GenerationStrategy.Compositional:
             if self.model_name == ModelName.PolyCoder.value or self.model_name == ModelName.SantaCoder.value:
                 prompt = info['skeleton']
             else:
                 prompt = info['instruction'] + info['skeleton']
                 prompt = InferenceUtil.generate_prompt(prompt, self.model_name)
-
+        elif strategy == GenerationStrategy.ZeroShot or strategy == GenerationStrategy.InFile:
+            if self.model_name == ModelName.QwenCoder25Instruct.value:
+                sys_prompt = "You are an exceptionally intelligent coding assistant that consistently delivers accurate and reliable responses to user instructions."
+                user_prompt = info['instruction']
+                messages = [
+                    {"role": "system", "content": sys_prompt},
+                    {"role": "user", "content": user_prompt},
+                ]
+                prompt = self.tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
         return prompt
 
     def post_process(self, result):
@@ -195,6 +206,10 @@ class InferencePipeline:
                         method_code = InferenceUtil.extract_method_code(code, method_name)
                         class_code += '\n\n' + method_code
                     cont['predict'].append(class_code)
+        elif self.generation_strategy == GenerationStrategy.InFile.value:
+            pass
+        elif self.generation_strategy == GenerationStrategy.ZeroShot.value:
+            pass
 
     def pipeline(self):
         error_task_id_list = []
@@ -215,7 +230,6 @@ class InferencePipeline:
                     print(e)
                     print("IDX: ", cont['task_id'])
                     error_task_id_list.append(cont['task_id'])
-
         elif self.generation_strategy == GenerationStrategy.Incremental.value:
             result = []
             for cont in tqdm(self.file_cont):
@@ -256,7 +270,6 @@ class InferencePipeline:
 
                 result.append(cont)
                 self.save_result(result)
-
         elif self.generation_strategy == GenerationStrategy.Compositional.value:
             result = []
             for cont in tqdm(self.file_cont):
@@ -294,10 +307,62 @@ class InferencePipeline:
 
                 result.append(cont)
                 self.save_result(result)
+        elif self.generation_strategy == GenerationStrategy.InFile.value:
+            for cont in tqdm(self.file_cont):
+                task_id = cont['task_id']
+                class_name = cont['class_name']
+                method_info = cont['method_info']
+                imports = '\n'.join(cont['import_statement'])
+                class_init = InferenceUtil.add_desc_to_init(cont['class_description'], cont['class_constructor'])
+                for method in method_info:
+                    method_name = method['method_name']
+                    method_description = method['method_description']
+                    class_text = imports + '\n' + class_init + '\n\n'
+                    for m in method_info:
+                        if m['method_name'] == method['method_name']:
+                            continue
+                        class_text += m['solution_code'] + '\n\n'
+                    class_text += method_description  + '\n'
+                    inst = f'please complete {method_name} method in the following class {class_name}\n\n {class_text}'
+                    prompt = self.construct_prompt(GenerationStrategy.InFile, {"instruction": inst})
+                    prediction = self.model_generate(prompt)
+                    result = {
+                        "task_id": task_id,
+                        "class_name": class_name,
+                        "method_name": method_name,
+                        "prediction": prediction
+                    }
+
+                    self.append_result(result)
+
+        elif self.generation_strategy == GenerationStrategy.ZeroShot.value:
+            for cont in tqdm(self.file_cont):
+                task_id = cont['task_id']
+                class_name = cont['class_name']
+                method_info = cont['method_info']
+                for method in method_info:
+                    method_name = method['method_name']
+                    method_description = method['method_description']
+                    inst = f'please complete {method_name} method in the following class {class_name}\n\n {method_description}' # User question
+                    prompt = self.construct_prompt(GenerationStrategy.ZeroShot, {"instruction": inst})
+                    prediction = self.model_generate(prompt)
+                    result = {
+                        "task_id": task_id,
+                        "class_name": class_name,
+                        "method_name": method_name,
+                        "prediction": prediction
+                    }
+
+                    self.append_result(result)
+                    
         else:
             print("Unknown Generation Strategy")
             return
         
         print("error_task_id_list: ", error_task_id_list)
+
+        if self.generation_strategy == GenerationStrategy.ZeroShot.value or self.generation_strategy == GenerationStrategy.InFile.value:
+            return
+
         self.post_process(result)
         self.save_result(result)

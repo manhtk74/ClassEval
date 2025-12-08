@@ -32,7 +32,7 @@ def args_init():
         "--generation_strategy",
         type=int,
         default=0,
-        help="Holistic = 0, Incremental = 1, Compositional = 2",
+        help="Holistic = 0, Incremental = 1, Compositional = 2, In-file context=3, Zero-shot (Function signature only)=5",
     )
     parser.add_argument(
         "--model",

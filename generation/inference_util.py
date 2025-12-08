@@ -18,11 +18,14 @@ class ModelName(Enum):
     DeepSeekCoder_inst = 13
     Gemini_Pro = 14
     CodeLlama_13b_inst = 15
+    QwenCoder25Instruct = 16
 
 class GenerationStrategy(Enum):
     Holistic = 0
     Incremental = 1
     Compositional = 2
+    InFile = 3
+    ZeroShot = 4
 
 class InferenceUtil:
 
@@ -40,8 +43,8 @@ class InferenceUtil:
 @@ Response:
 """
         else:
-            return f"""Below is an instruction that describes a task. Write a response that appropriately completes the request.
-
+            # return f"""Below is an instruction that describes a task. Write a response that appropriately completes the request.
+            return f"""You are an exceptionally intelligent coding assistant that consistently delivers accurate and reliable responses to user instructions.
 ### Instruction:
 {instruction}
 
