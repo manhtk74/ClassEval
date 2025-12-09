@@ -148,6 +148,7 @@ class InferencePipeline:
             input_ids = self.tokenizer.encode(prompt, return_tensors = "pt", max_length = self.max_length, truncation = True).to(self.cuda)
             outputs = self.model.generate(input_ids, generation_config = self.generation_config, 
                                             max_length = self.max_length, do_sample = self.do_sample)
+            outputs = outputs[input_ids.shape[-1]:]
             outputs = self.tokenizer.decode(outputs[0], skip_special_tokens = True)
         return outputs
 
