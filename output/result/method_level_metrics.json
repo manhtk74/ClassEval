@@ -1,13 +1,13 @@
 {
-    "Qwen_zeroshot": {
+    "Qwen7B_Prochemy_infile": {
         "error_count": 109,
         "error_rate": 0.3177842565597668,
-        "fail_count": 27,
-        "fail_rate": 0.07871720116618076,
-        "partial_success_count": 70,
-        "partial_success_rate": 0.20408163265306123,
-        "success_count": 137,
-        "success_rate": 0.39941690962099125,
+        "fail_count": 18,
+        "fail_rate": 0.052478134110787174,
+        "partial_success_count": 72,
+        "partial_success_rate": 0.2099125364431487,
+        "success_count": 144,
+        "success_rate": 0.4198250728862974,
         "total_methods": 343
     }
 }

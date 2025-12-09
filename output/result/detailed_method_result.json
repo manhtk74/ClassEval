@@ -1,5 +1,5 @@
 {
-    "Qwen_zeroshot": {
+    "Qwen7B_Prochemy_infile": {
         "ClassEval_0_filter": {
             "AccessGatewayFilterTestFilter": {
                 "errors": 0,
@@ -10,10 +10,10 @@
         },
         "ClassEval_0_get_jwt_user": {
             "AccessGatewayFilterTestGetJwtUser": {
-                "errors": 0,
+                "errors": 5,
                 "failures": 0,
                 "result": "error",
-                "testsRun": 0
+                "testsRun": 5
             }
         },
         "ClassEval_0_is_start_with": {
@@ -67,8 +67,8 @@
         "ClassEval_11_add": {
             "BitStatusUtilTestAdd": {
                 "errors": 0,
-                "failures": 5,
-                "result": "fail",
+                "failures": 0,
+                "result": "success",
                 "testsRun": 5
             }
         },
@@ -82,32 +82,32 @@
         },
         "ClassEval_11_has": {
             "BitStatusUtilTestHas": {
-                "errors": 2,
+                "errors": 0,
                 "failures": 0,
-                "result": "partial_success",
+                "result": "success",
                 "testsRun": 5
             }
         },
         "ClassEval_11_remove": {
             "BitStatusUtilTestRemove": {
-                "errors": 2,
+                "errors": 0,
                 "failures": 0,
-                "result": "partial_success",
+                "result": "success",
                 "testsRun": 5
             }
         },
         "ClassEval_12_calculate_hand_value": {
             "BlackjackGameTestCalculateHandValue": {
                 "errors": 0,
-                "failures": 3,
-                "result": "partial_success",
+                "failures": 0,
+                "result": "success",
                 "testsRun": 6
             }
         },
         "ClassEval_12_check_winner": {
             "BlackjackGameTestCheckWinner": {
                 "errors": 0,
-                "failures": 2,
+                "failures": 1,
                 "result": "partial_success",
                 "testsRun": 6
             }
@@ -163,40 +163,40 @@
         "ClassEval_14_borrow_book": {
             "BookManagementDBTestBorrowBook": {
                 "errors": 1,
-                "failures": 0,
+                "failures": 1,
                 "result": "error",
                 "testsRun": 1
             }
         },
         "ClassEval_14_create_table": {
             "BookManagementDBTestCreateTable": {
-                "errors": 2,
-                "failures": 1,
+                "errors": 0,
+                "failures": 0,
                 "result": "error",
-                "testsRun": 2
+                "testsRun": 0
             }
         },
         "ClassEval_14_remove_book": {
             "BookManagementDBTestRemoveBook": {
-                "errors": 1,
+                "errors": 2,
                 "failures": 0,
-                "result": "error",
+                "result": "fail",
                 "testsRun": 1
             }
         },
         "ClassEval_14_return_book": {
             "BookManagementDBTestReturnBook": {
                 "errors": 1,
-                "failures": 0,
+                "failures": 1,
                 "result": "error",
                 "testsRun": 1
             }
         },
         "ClassEval_14_search_books": {
             "BookManagementDBTestSearchBooks": {
-                "errors": 1,
+                "errors": 2,
                 "failures": 0,
-                "result": "error",
+                "result": "fail",
                 "testsRun": 1
             }
         },
@@ -210,9 +210,9 @@
         },
         "ClassEval_15_match_in_pattern": {
             "BoyerMooreSearchTestMatchInPattern": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
-                "result": "error",
+                "result": "success",
                 "testsRun": 5
             }
         },
@@ -227,16 +227,16 @@
         "ClassEval_16_apply_operator": {
             "CalculatorTestApplyOperator": {
                 "errors": 1,
-                "failures": 4,
-                "result": "fail",
+                "failures": 0,
+                "result": "partial_success",
                 "testsRun": 5
             }
         },
         "ClassEval_16_calculate": {
             "CalculatorTestCalculate": {
-                "errors": 0,
-                "failures": 2,
-                "result": "partial_success",
+                "errors": 8,
+                "failures": 0,
+                "result": "error",
                 "testsRun": 8
             }
         },
@@ -274,9 +274,9 @@
         },
         "ClassEval_17_get_upcoming_events": {
             "CalendarTestGetUpcomingEvents": {
-                "errors": 0,
-                "failures": 5,
-                "result": "fail",
+                "errors": 5,
+                "failures": 0,
+                "result": "error",
                 "testsRun": 5
             }
         },
@@ -290,9 +290,9 @@
         },
         "ClassEval_17_remove_event": {
             "CalendarTestRemoveEvent": {
-                "errors": 0,
+                "errors": 1,
                 "failures": 0,
-                "result": "success",
+                "result": "partial_success",
                 "testsRun": 6
             }
         },
@@ -306,33 +306,33 @@
         },
         "ClassEval_18___getitem__": {
             "CamelCaseMapTestGetitem": {
+                "errors": 3,
+                "failures": 0,
+                "result": "partial_success",
+                "testsRun": 5
+            }
+        },
+        "ClassEval_18___iter__": {
+            "CamelCaseMapTestIter": {
                 "errors": 0,
                 "failures": 0,
                 "result": "success",
                 "testsRun": 5
             }
         },
-        "ClassEval_18___iter__": {
-            "CamelCaseMapTestIter": {
-                "errors": 5,
-                "failures": 0,
-                "result": "error",
-                "testsRun": 5
-            }
-        },
         "ClassEval_18___len__": {
             "CamelCaseMapTestLen": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
-                "result": "error",
+                "result": "success",
                 "testsRun": 5
             }
         },
         "ClassEval_18___setitem__": {
             "CamelCaseMapTestSetitem": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
-                "result": "error",
+                "result": "success",
                 "testsRun": 5
             }
         },
@@ -362,9 +362,9 @@
         },
         "ClassEval_19_get_primes": {
             "ChandrasekharSieveTestGetPrimes": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
-                "result": "error",
+                "result": "success",
                 "testsRun": 5
             }
         },
@@ -386,17 +386,17 @@
         },
         "ClassEval_1_calculate_cylinder_area": {
             "AreaCalculatorTestCalculateCylinderArea": {
-                "errors": 0,
+                "errors": 2,
                 "failures": 0,
-                "result": "success",
+                "result": "partial_success",
                 "testsRun": 5
             }
         },
         "ClassEval_1_calculate_sector_area": {
             "AreaCalculatorTestCalculateSectorArea": {
                 "errors": 0,
-                "failures": 3,
-                "result": "partial_success",
+                "failures": 0,
+                "result": "success",
                 "testsRun": 5
             }
         },
@@ -450,9 +450,9 @@
         },
         "ClassEval_21_check_course_conflict": {
             "ClassroomTestCheckCourseConflict": {
-                "errors": 6,
-                "failures": 0,
-                "result": "error",
+                "errors": 0,
+                "failures": 1,
+                "result": "partial_success",
                 "testsRun": 6
             }
         },
@@ -475,8 +475,8 @@
         "ClassEval_22_get_all_major": {
             "ClassRegistrationSystemTestGetMajor": {
                 "errors": 0,
-                "failures": 1,
-                "result": "partial_success",
+                "failures": 0,
+                "result": "success",
                 "testsRun": 3
             }
         },
@@ -522,17 +522,17 @@
         },
         "ClassEval_23_count": {
             "CombinationCalculatorTestCount": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
-                "result": "error",
+                "result": "success",
                 "testsRun": 5
             }
         },
         "ClassEval_23_count_all": {
             "CombinationCalculatorTestCountAll": {
-                "errors": 1,
-                "failures": 3,
-                "result": "partial_success",
+                "errors": 0,
+                "failures": 5,
+                "result": "fail",
                 "testsRun": 5
             }
         },
@@ -594,25 +594,25 @@
         },
         "ClassEval_25_get_cookies": {
             "CookiesUtilTestGetCookies": {
-                "errors": 0,
+                "errors": 5,
                 "failures": 0,
-                "result": "success",
+                "result": "error",
                 "testsRun": 5
             }
         },
         "ClassEval_25_load_cookies": {
             "CookiesUtilTestLoadCookies": {
-                "errors": 0,
+                "errors": 6,
                 "failures": 0,
-                "result": "success",
+                "result": "error",
                 "testsRun": 6
             }
         },
         "ClassEval_26_process_csv_data": {
             "CSVProcessorTestProcessCSVData": {
-                "errors": 5,
-                "failures": 0,
-                "result": "error",
+                "errors": 0,
+                "failures": 5,
+                "result": "fail",
                 "testsRun": 5
             }
         },
@@ -666,10 +666,10 @@
         },
         "ClassEval_28_create_table": {
             "DatabaseProcessorTestCreateTable": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "result": "error",
-                "testsRun": 5
+                "testsRun": 0
             }
         },
         "ClassEval_28_delete_from_database": {
@@ -746,17 +746,17 @@
         },
         "ClassEval_2_parse_arguments": {
             "ArgumentParserTestParseArguments": {
-                "errors": 0,
-                "failures": 5,
-                "result": "fail",
+                "errors": 5,
+                "failures": 0,
+                "result": "error",
                 "testsRun": 5
             }
         },
         "ClassEval_30_get_correlation": {
             "DataStatistics2TestGetCorrelation": {
                 "errors": 0,
-                "failures": 5,
-                "result": "fail",
+                "failures": 0,
+                "result": "success",
                 "testsRun": 5
             }
         },
@@ -786,9 +786,9 @@
         },
         "ClassEval_30_get_sum": {
             "DataStatistics2TestGetSum": {
-                "errors": 0,
+                "errors": 5,
                 "failures": 0,
-                "result": "success",
+                "result": "error",
                 "testsRun": 5
             }
         },
@@ -802,9 +802,9 @@
         },
         "ClassEval_31_correlation_coefficient": {
             "DataStatistics4TestCorrelationCoefficient": {
-                "errors": 5,
-                "failures": 0,
-                "result": "error",
+                "errors": 1,
+                "failures": 3,
+                "result": "partial_success",
                 "testsRun": 5
             }
         },
@@ -842,17 +842,17 @@
         },
         "ClassEval_32_rail_fence_decipher": {
             "DecryptionUtilsTestRailFenceDecipher": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
-                "result": "error",
+                "result": "success",
                 "testsRun": 5
             }
         },
         "ClassEval_32_vigenere_decipher": {
             "DecryptionUtilsTestVigenereDecipher": {
-                "errors": 6,
-                "failures": 0,
-                "result": "error",
+                "errors": 0,
+                "failures": 6,
+                "result": "fail",
                 "testsRun": 6
             }
         },
@@ -891,8 +891,8 @@
         "ClassEval_33_total": {
             "DiscountStrategyTestTotal": {
                 "errors": 0,
-                "failures": 0,
-                "result": "success",
+                "failures": 4,
+                "result": "partial_success",
                 "testsRun": 5
             }
         },
@@ -938,17 +938,17 @@
         },
         "ClassEval_35_find_blank": {
             "EightPuzzleTestFindBlank": {
-                "errors": 0,
+                "errors": 3,
                 "failures": 0,
-                "result": "success",
+                "result": "partial_success",
                 "testsRun": 5
             }
         },
         "ClassEval_35_get_possible_moves": {
             "EightPuzzleTestGetPossibleMoves": {
-                "errors": 0,
+                "errors": 5,
                 "failures": 0,
-                "result": "success",
+                "result": "error",
                 "testsRun": 5
             }
         },
@@ -1019,8 +1019,8 @@
         "ClassEval_37_rail_fence_cipher": {
             "EncryptionUtilsTestRailFenceCipher": {
                 "errors": 0,
-                "failures": 5,
-                "result": "partial_success",
+                "failures": 0,
+                "result": "success",
                 "testsRun": 6
             }
         },
@@ -1042,23 +1042,23 @@
         },
         "ClassEval_38_read_excel": {
             "ExcelProcessorTestReadExcel": {
-                "errors": 0,
-                "failures": 6,
-                "result": "fail",
+                "errors": 6,
+                "failures": 0,
+                "result": "error",
                 "testsRun": 6
             }
         },
         "ClassEval_38_write_excel": {
             "ExcelProcessorTestWriteExcel": {
-                "errors": 0,
-                "failures": 5,
+                "errors": 5,
+                "failures": 0,
                 "result": "partial_success",
                 "testsRun": 6
             }
         },
         "ClassEval_39__calculate": {
             "ExpressionCalculatorTestCalculateMethod": {
-                "errors": 1,
+                "errors": 6,
                 "failures": 0,
                 "result": "partial_success",
                 "testsRun": 7
@@ -1074,9 +1074,9 @@
         },
         "ClassEval_39_compare": {
             "ExpressionCalculatorTestCompare": {
-                "errors": 0,
-                "failures": 3,
-                "result": "partial_success",
+                "errors": 7,
+                "failures": 0,
+                "result": "error",
                 "testsRun": 7
             }
         },
@@ -1090,17 +1090,17 @@
         },
         "ClassEval_39_prepare": {
             "ExpressionCalculatorTestPrepare": {
-                "errors": 0,
-                "failures": 5,
-                "result": "partial_success",
+                "errors": 6,
+                "failures": 0,
+                "result": "error",
                 "testsRun": 6
             }
         },
         "ClassEval_39_transform": {
             "ExpressionCalculatorTestTransform": {
                 "errors": 0,
-                "failures": 6,
-                "result": "fail",
+                "failures": 2,
+                "result": "partial_success",
                 "testsRun": 6
             }
         },
@@ -1114,9 +1114,9 @@
         },
         "ClassEval_3_count_all": {
             "ArrangementCalculatorTestCountAll": {
-                "errors": 0,
-                "failures": 4,
-                "result": "partial_success",
+                "errors": 5,
+                "failures": 0,
+                "result": "error",
                 "testsRun": 5
             }
         },
@@ -1146,9 +1146,9 @@
         },
         "ClassEval_40_calculate_calorie_intake": {
             "FitnessTrackerTestCaculateCalorieIntake": {
-                "errors": 5,
-                "failures": 0,
-                "result": "error",
+                "errors": 0,
+                "failures": 5,
+                "result": "fail",
                 "testsRun": 5
             }
         },
@@ -1178,17 +1178,17 @@
         },
         "ClassEval_41_check_winner": {
             "GomokuGameTestCheckWinner": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
-                "result": "error",
+                "result": "success",
                 "testsRun": 5
             }
         },
         "ClassEval_41_make_move": {
             "GomokuGameTestMakeMove": {
-                "errors": 0,
+                "errors": 5,
                 "failures": 0,
-                "result": "success",
+                "result": "error",
                 "testsRun": 5
             }
         },
@@ -1210,9 +1210,9 @@
         },
         "ClassEval_42_check_out": {
             "HotelTestCheckOut": {
-                "errors": 1,
-                "failures": 4,
-                "result": "fail",
+                "errors": 0,
+                "failures": 0,
+                "result": "success",
                 "testsRun": 5
             }
         },
@@ -1244,8 +1244,8 @@
             "HRManagementSystemTestListEmployees": {
                 "errors": 0,
                 "failures": 0,
-                "result": "error",
-                "testsRun": 0
+                "result": "success",
+                "testsRun": 5
             }
         },
         "ClassEval_43_remove_employee": {
@@ -1266,17 +1266,17 @@
         },
         "ClassEval_44___format_line_feed": {
             "HtmlUtilTestFormatLineFeed": {
-                "errors": 5,
-                "failures": 0,
-                "result": "error",
+                "errors": 0,
+                "failures": 4,
+                "result": "partial_success",
                 "testsRun": 5
             }
         },
         "ClassEval_44_extract_code_from_html_text": {
             "HtmlUtilTestExtractCodeFromHtmlText": {
                 "errors": 0,
-                "failures": 4,
-                "result": "partial_success",
+                "failures": 0,
+                "result": "success",
                 "testsRun": 5
             }
         },
@@ -1339,40 +1339,40 @@
         "ClassEval_46_interpolate_2d": {
             "InterpolationTestInterpolate2d": {
                 "errors": 0,
-                "failures": 5,
-                "result": "fail",
+                "failures": 3,
+                "result": "partial_success",
                 "testsRun": 5
             }
         },
         "ClassEval_47_get_binary": {
             "IPAddressTestGetBinary": {
-                "errors": 2,
-                "failures": 2,
-                "result": "partial_success",
+                "errors": 5,
+                "failures": 0,
+                "result": "error",
                 "testsRun": 5
             }
         },
         "ClassEval_47_get_octets": {
             "IPAddressTestGetOctets": {
-                "errors": 0,
+                "errors": 5,
                 "failures": 0,
-                "result": "success",
+                "result": "error",
                 "testsRun": 5
             }
         },
         "ClassEval_47_is_valid": {
             "IPAddressTestIsValid": {
-                "errors": 0,
+                "errors": 5,
                 "failures": 0,
-                "result": "success",
+                "result": "error",
                 "testsRun": 5
             }
         },
         "ClassEval_48_get_hostname": {
             "IpUtilTestGetHostname": {
                 "errors": 0,
-                "failures": 1,
-                "result": "partial_success",
+                "failures": 5,
+                "result": "fail",
                 "testsRun": 5
             }
         },
@@ -1442,9 +1442,9 @@
         },
         "ClassEval_4_add_course_score": {
             "AssessmentSystemTestAddCourseScore": {
-                "errors": 0,
+                "errors": 1,
                 "failures": 0,
-                "result": "success",
+                "result": "partial_success",
                 "testsRun": 5
             }
         },
@@ -1474,9 +1474,9 @@
         },
         "ClassEval_4_get_gpa": {
             "AssessmentSystemTestGetGPA": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
-                "result": "error",
+                "result": "success",
                 "testsRun": 5
             }
         },
@@ -1499,8 +1499,8 @@
         "ClassEval_50_read_json": {
             "JSONProcessorTestReadJson": {
                 "errors": 0,
-                "failures": 4,
-                "result": "partial_success",
+                "failures": 0,
+                "result": "success",
                 "testsRun": 5
             }
         },
@@ -1523,8 +1523,8 @@
         "ClassEval_51_kappa": {
             "KappaCalculatorTestKappa": {
                 "errors": 0,
-                "failures": 5,
-                "result": "fail",
+                "failures": 0,
+                "result": "success",
                 "testsRun": 5
             }
         },
@@ -1578,9 +1578,9 @@
         },
         "ClassEval_54_has_path": {
             "MahjongConnectTestHasPath": {
-                "errors": 0,
+                "errors": 6,
                 "failures": 0,
-                "result": "success",
+                "result": "error",
                 "testsRun": 6
             }
         },
@@ -1594,8 +1594,8 @@
         },
         "ClassEval_54_is_valid_move": {
             "MahjongConnectTestIsValidMove": {
-                "errors": 0,
-                "failures": 1,
+                "errors": 5,
+                "failures": 0,
                 "result": "partial_success",
                 "testsRun": 6
             }
@@ -1634,9 +1634,9 @@
         },
         "ClassEval_56_f1_score": {
             "MetricsCalculatorTestF1Score": {
-                "errors": 6,
+                "errors": 0,
                 "failures": 0,
-                "result": "error",
+                "result": "success",
                 "testsRun": 6
             }
         },
@@ -1667,7 +1667,7 @@
         "ClassEval_57_map": {
             "MetricsCalculator2TestMap": {
                 "errors": 1,
-                "failures": 5,
+                "failures": 6,
                 "result": "partial_success",
                 "testsRun": 8
             }
@@ -1690,9 +1690,9 @@
         },
         "ClassEval_58_generate_mine_sweeper_map": {
             "MinesweeperGameTestGenerateMineSweeperMap": {
-                "errors": 0,
+                "errors": 5,
                 "failures": 0,
-                "result": "success",
+                "result": "error",
                 "testsRun": 5
             }
         },
@@ -1754,10 +1754,10 @@
         },
         "ClassEval_60_create_table": {
             "MovieTicketDBTestInsertTicket": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "result": "error",
-                "testsRun": 5
+                "testsRun": 0
             }
         },
         "ClassEval_60_delete_ticket": {
@@ -1842,9 +1842,9 @@
         },
         "ClassEval_61_switch_song": {
             "MusicPlayerTestSwitchSong": {
-                "errors": 0,
-                "failures": 0,
-                "result": "success",
+                "errors": 1,
+                "failures": 2,
+                "result": "partial_success",
                 "testsRun": 5
             }
         },
@@ -1867,16 +1867,16 @@
         "ClassEval_62_remove_stop_words": {
             "NLPDataProcessorTestRemove": {
                 "errors": 0,
-                "failures": 1,
+                "failures": 4,
                 "result": "partial_success",
                 "testsRun": 5
             }
         },
         "ClassEval_63_calculate_word_frequency": {
             "NLPDataProcessorTestCalculate": {
-                "errors": 5,
-                "failures": 0,
-                "result": "error",
+                "errors": 0,
+                "failures": 4,
+                "result": "partial_success",
                 "testsRun": 5
             }
         },
@@ -1906,9 +1906,9 @@
         },
         "ClassEval_64_decimal_to_binary": {
             "NumberConverterTestDecimalToBinary": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
-                "result": "error",
+                "result": "success",
                 "testsRun": 5
             }
         },
@@ -1946,16 +1946,16 @@
         },
         "ClassEval_65_format": {
             "NumberWordFormatterTestFormat": {
-                "errors": 1,
-                "failures": 4,
-                "result": "partial_success",
+                "errors": 5,
+                "failures": 1,
+                "result": "fail",
                 "testsRun": 6
             }
         },
         "ClassEval_65_format_string": {
             "NumberWordFormatterTestFormatString": {
-                "errors": 1,
-                "failures": 2,
+                "errors": 5,
+                "failures": 0,
                 "result": "partial_success",
                 "testsRun": 6
             }
@@ -1970,17 +1970,17 @@
         },
         "ClassEval_65_trans_three": {
             "NumberWordFormatterTestTransThree": {
-                "errors": 3,
-                "failures": 1,
-                "result": "partial_success",
+                "errors": 5,
+                "failures": 0,
+                "result": "error",
                 "testsRun": 5
             }
         },
         "ClassEval_65_trans_two": {
             "NumberWordFormatterTestTransTwo": {
-                "errors": 0,
-                "failures": 1,
-                "result": "partial_success",
+                "errors": 6,
+                "failures": 0,
+                "result": "error",
                 "testsRun": 6
             }
         },
@@ -1994,16 +1994,16 @@
         },
         "ClassEval_66_replace": {
             "NumericEntityUnescaperTestReplace": {
-                "errors": 11,
-                "failures": 0,
-                "result": "error",
+                "errors": 0,
+                "failures": 5,
+                "result": "partial_success",
                 "testsRun": 11
             }
         },
         "ClassEval_67_add_dish": {
             "OrderTestAddDish": {
-                "errors": 5,
-                "failures": 0,
+                "errors": 0,
+                "failures": 1,
                 "result": "partial_success",
                 "testsRun": 6
             }
@@ -2242,9 +2242,9 @@
         },
         "ClassEval_73_level_up": {
             "RPGCharacterTestLevelUp": {
-                "errors": 0,
+                "errors": 4,
                 "failures": 0,
-                "result": "success",
+                "result": "partial_success",
                 "testsRun": 5
             }
         },
@@ -2298,9 +2298,9 @@
         },
         "ClassEval_75_remove_item": {
             "ShoppingCartTestRemoveItem": {
-                "errors": 0,
+                "errors": 1,
                 "failures": 0,
-                "result": "success",
+                "result": "partial_success",
                 "testsRun": 6
             }
         },
@@ -2330,17 +2330,17 @@
         },
         "ClassEval_76_all_not_signed_in": {
             "SignInSystemTestAllNotSignedIn": {
-                "errors": 0,
+                "errors": 5,
                 "failures": 0,
-                "result": "success",
+                "result": "error",
                 "testsRun": 5
             }
         },
         "ClassEval_76_all_signed_in": {
             "SignInSystemTestAllSignedIn": {
-                "errors": 0,
+                "errors": 5,
                 "failures": 0,
-                "result": "success",
+                "result": "error",
                 "testsRun": 5
             }
         },
@@ -2370,8 +2370,8 @@
         },
         "ClassEval_77_move": {
             "SnakeTestMove": {
-                "errors": 1,
-                "failures": 0,
+                "errors": 0,
+                "failures": 1,
                 "result": "partial_success",
                 "testsRun": 5
             }
@@ -2395,7 +2395,7 @@
         "ClassEval_78_count_words": {
             "SplitSentenceTestCountWords": {
                 "errors": 0,
-                "failures": 1,
+                "failures": 3,
                 "result": "partial_success",
                 "testsRun": 5
             }
@@ -2411,8 +2411,8 @@
         "ClassEval_78_split_sentences": {
             "SplitSentenceTestSplitSentences": {
                 "errors": 0,
-                "failures": 5,
-                "result": "fail",
+                "failures": 4,
+                "result": "partial_success",
                 "testsRun": 5
             }
         },
@@ -2426,17 +2426,17 @@
         },
         "ClassEval_79_insert": {
             "SQLGeneratorTestInsert": {
-                "errors": 0,
-                "failures": 5,
-                "result": "fail",
+                "errors": 5,
+                "failures": 0,
+                "result": "error",
                 "testsRun": 5
             }
         },
         "ClassEval_79_select": {
             "SQLGeneratorTestSelect": {
                 "errors": 0,
-                "failures": 6,
-                "result": "fail",
+                "failures": 0,
+                "result": "success",
                 "testsRun": 6
             }
         },
@@ -2458,9 +2458,9 @@
         },
         "ClassEval_79_update": {
             "SQLGeneratorTestUpdate": {
-                "errors": 0,
+                "errors": 5,
                 "failures": 0,
-                "result": "success",
+                "result": "error",
                 "testsRun": 5
             }
         },
@@ -2507,16 +2507,16 @@
         "ClassEval_80_update": {
             "SQLQueryBuilderTestUpdate": {
                 "errors": 0,
-                "failures": 6,
-                "result": "fail",
+                "failures": 0,
+                "result": "success",
                 "testsRun": 6
             }
         },
         "ClassEval_81_correlation": {
             "Statistics3TestCorrelation": {
                 "errors": 2,
-                "failures": 3,
-                "result": "fail",
+                "failures": 1,
+                "result": "partial_success",
                 "testsRun": 5
             }
         },
@@ -2546,9 +2546,9 @@
         },
         "ClassEval_81_mode": {
             "Statistics3TestMode": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
-                "result": "error",
+                "result": "success",
                 "testsRun": 5
             }
         },
@@ -2571,24 +2571,24 @@
         "ClassEval_82_add_stock": {
             "StockPortfolioTrackerTestAddStock": {
                 "errors": 0,
-                "failures": 3,
-                "result": "partial_success",
+                "failures": 0,
+                "result": "success",
                 "testsRun": 5
             }
         },
         "ClassEval_82_buy_stock": {
             "StockPortfolioTrackerTestBuyStock": {
-                "errors": 5,
-                "failures": 0,
-                "result": "error",
+                "errors": 0,
+                "failures": 3,
+                "result": "partial_success",
                 "testsRun": 5
             }
         },
         "ClassEval_82_calculate_portfolio_value": {
             "StockPortfolioTrackerTestCalculatePortfolioValue": {
-                "errors": 0,
-                "failures": 5,
-                "result": "fail",
+                "errors": 5,
+                "failures": 0,
+                "result": "error",
                 "testsRun": 5
             }
         },
@@ -2610,9 +2610,9 @@
         },
         "ClassEval_82_remove_stock": {
             "StockPortfolioTrackerTestRemoveStock": {
-                "errors": 0,
+                "errors": 4,
                 "failures": 0,
-                "result": "success",
+                "result": "partial_success",
                 "testsRun": 5
             }
         },
@@ -2626,10 +2626,10 @@
         },
         "ClassEval_83_create_student_table": {
             "StudentDatabaseProcessorTestInsertStudent": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "result": "error",
-                "testsRun": 5
+                "testsRun": 0
             }
         },
         "ClassEval_83_delete_student_by_name": {
@@ -2731,15 +2731,15 @@
         "ClassEval_9_multiply": {
             "BigNumCalculatorTestMultiply": {
                 "errors": 0,
-                "failures": 6,
-                "result": "fail",
+                "failures": 0,
+                "result": "success",
                 "testsRun": 6
             }
         },
         "ClassEval_9_subtract": {
             "BigNumCalculatorTestSubtract": {
-                "errors": 3,
-                "failures": 2,
+                "errors": 0,
+                "failures": 5,
                 "result": "fail",
                 "testsRun": 5
             }

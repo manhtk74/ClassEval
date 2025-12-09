@@ -10,7 +10,7 @@ if __name__ == '__main__':
     parser.add_argument(
         "--source_file_name",
         type=str,
-        default="Qwen_zeroshot",
+        default="Qwen7B_Prochemy_infile",
         help="source of model output",
     )
     parser.add_argument(

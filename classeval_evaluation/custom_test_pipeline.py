@@ -1,6 +1,7 @@
 import shutil
 import time
 from func_timeout import func_set_timeout
+import func_timeout
 import importlib
 import unittest
 import json
@@ -51,8 +52,15 @@ class CustomAutoTest(AutoTest):
                 'failures': len(res.failures),
                 'testsRun': res.testsRun
             }
+        except func_timeout.exceptions.FunctionTimedOut:
+            print(f"⏱️  TIMEOUT (30s) for {test_module_name}.{test_class}")
+            result[test_class] = {
+                'errors': 0,
+                'failures': 0,
+                'testsRun': 0
+            }
         except Exception as e:
-            print(f"ERROR in test() for {test_module_name}.{test_class}: {e}")
+            print(f"❌ ERROR in test() for {test_module_name}.{test_class}: {e}")
             import traceback
             traceback.print_exc()
             result[test_class] = {

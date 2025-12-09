@@ -1,0 +1,2403 @@
+{
+    "ClassEval_0_filter": {
+        "AccessGatewayFilterTestFilter": {
+            "errors": 4,
+            "failures": 3,
+            "testsRun": 8
+        }
+    },
+    "ClassEval_0_get_jwt_user": {
+        "AccessGatewayFilterTestGetJwtUser": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 0
+        }
+    },
+    "ClassEval_0_is_start_with": {
+        "AccessGatewayFilterTestIsStartWith": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_0_set_current_user_info_and_log": {
+        "AccessGatewayFilterTest": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 1
+        }
+    },
+    "ClassEval_10_calculate_binary_info": {
+        "BinaryDataProcessorTestCalculateBinaryInfo": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_10_clean_non_binary_chars": {
+        "BinaryDataProcessorTestCleanNonBinaryChars": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_10_convert_to_ascii": {
+        "BinaryDataProcessorTestConvertToAscii": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_10_convert_to_utf8": {
+        "BinaryDataProcessorTestConvertToUtf8": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_11_add": {
+        "BitStatusUtilTestAdd": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_11_check": {
+        "BitStatusUtilTestCheck": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_11_has": {
+        "BitStatusUtilTestHas": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_11_remove": {
+        "BitStatusUtilTestRemove": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_12_calculate_hand_value": {
+        "BlackjackGameTestCalculateHandValue": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_12_check_winner": {
+        "BlackjackGameTestCheckWinner": {
+            "errors": 0,
+            "failures": 1,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_12_create_deck": {
+        "BlackjackGameTestCreateDeck": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_13_add_book": {
+        "BookManagementTestAddBook": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_13_remove_book": {
+        "BookManagementTestRemoveBook": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_13_view_book_quantity": {
+        "BookManagementTestViewBookQuantity": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_13_view_inventory": {
+        "BookManagementTestViewInventory": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_14_add_book": {
+        "BookManagementDBTestAddBook": {
+            "errors": 1,
+            "failures": 0,
+            "testsRun": 1
+        }
+    },
+    "ClassEval_14_borrow_book": {
+        "BookManagementDBTestBorrowBook": {
+            "errors": 2,
+            "failures": 0,
+            "testsRun": 1
+        }
+    },
+    "ClassEval_14_create_table": {
+        "BookManagementDBTestCreateTable": {
+            "errors": 2,
+            "failures": 0,
+            "testsRun": 2
+        }
+    },
+    "ClassEval_14_remove_book": {
+        "BookManagementDBTestRemoveBook": {
+            "errors": 1,
+            "failures": 0,
+            "testsRun": 1
+        }
+    },
+    "ClassEval_14_return_book": {
+        "BookManagementDBTestReturnBook": {
+            "errors": 2,
+            "failures": 0,
+            "testsRun": 1
+        }
+    },
+    "ClassEval_14_search_books": {
+        "BookManagementDBTestSearchBooks": {
+            "errors": 1,
+            "failures": 1,
+            "testsRun": 1
+        }
+    },
+    "ClassEval_15_bad_character_heuristic": {
+        "BoyerMooreSearchTestBadCharacterHeuristic": {
+            "errors": 5,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_15_match_in_pattern": {
+        "BoyerMooreSearchTestMatchInPattern": {
+            "errors": 0,
+            "failures": 3,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_15_mismatch_in_text": {
+        "BoyerMooreSearchTestMismatchInText": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_16_apply_operator": {
+        "CalculatorTestApplyOperator": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_16_calculate": {
+        "CalculatorTestCalculate": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 0
+        }
+    },
+    "ClassEval_16_precedence": {
+        "CalculatorTestPrecedence": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_17_add_event": {
+        "CalendarTestAddEvent": {
+            "errors": 1,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_17_get_available_slots": {
+        "CalendarTestGetAvailableSlots": {
+            "errors": 0,
+            "failures": 5,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_17_get_events": {
+        "CalendarTestGetEvents": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 2
+        }
+    },
+    "ClassEval_17_get_upcoming_events": {
+        "CalendarTestGetUpcomingEvents": {
+            "errors": 5,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_17_is_available": {
+        "CalendarTestIsAvailable": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_17_remove_event": {
+        "CalendarTestRemoveEvent": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_18___delitem__": {
+        "CamelCaseMapTestDelitem": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_18___getitem__": {
+        "CamelCaseMapTestGetitem": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_18___iter__": {
+        "CamelCaseMapTestIter": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_18___len__": {
+        "CamelCaseMapTestLen": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_18___setitem__": {
+        "CamelCaseMapTestSetitem": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_18__convert_key": {
+        "CamelCaseMapTestConvertKey": {
+            "errors": 1,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_18__to_camel_case": {
+        "CamelCaseMapTestToCamelCase": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_19_generate_primes": {
+        "ChandrasekharSieveTestGeneratePrimes": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_19_get_primes": {
+        "ChandrasekharSieveTestGetPrimes": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_1_calculate_annulus_area": {
+        "AreaCalculatorTestCalculateAnnulusArea": {
+            "errors": 1,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_1_calculate_circle_area": {
+        "AreaCalculatorTestCalculateCircleArea": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_1_calculate_cylinder_area": {
+        "AreaCalculatorTestCalculateCylinderArea": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_1_calculate_sector_area": {
+        "AreaCalculatorTestCalculateSectorArea": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_1_calculate_sphere_area": {
+        "AreaCalculatorTestCalculateSphereArea": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_20_add_user": {
+        "ChatTestAddUser": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_20_get_messages": {
+        "ChatTestGetMessages": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_20_remove_user": {
+        "ChatTestRemoveUser": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_20_send_message": {
+        "ChatTestSendMessage": {
+            "errors": 0,
+            "failures": 1,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_21_add_course": {
+        "ClassroomTestAddCourse": {
+            "errors": 6,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_21_check_course_conflict": {
+        "ClassroomTestCheckCourseConflict": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_21_is_free_at": {
+        "ClassroomTestIsFreeAt": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_21_remove_course": {
+        "ClassroomTestRemoveCourse": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_22_get_all_major": {
+        "ClassRegistrationSystemTestGetMajor": {
+            "errors": 0,
+            "failures": 2,
+            "testsRun": 3
+        }
+    },
+    "ClassEval_22_get_most_popular_class_in_major": {
+        "ClassRegistrationSystemTestPopularClass": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 2
+        }
+    },
+    "ClassEval_22_get_students_by_major": {
+        "ClassRegistrationSystemTestGetStudent": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 4
+        }
+    },
+    "ClassEval_22_register_class": {
+        "ClassRegistrationSystemTestRegisterClass": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 3
+        }
+    },
+    "ClassEval_22_register_student": {
+        "ClassRegistrationSystemTestRegisterStudent": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 3
+        }
+    },
+    "ClassEval_23__select": {
+        "CombinationCalculatorTestSelect2": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_23_count": {
+        "CombinationCalculatorTestCount": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_23_count_all": {
+        "CombinationCalculatorTestCountAll": {
+            "errors": 4,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_23_select": {
+        "CombinationCalculatorTestSelect": {
+            "errors": 5,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_23_select_all": {
+        "CombinationCalculatorTestSelectAll": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_24_add": {
+        "ComplexCalculatorTestAdd": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_24_divide": {
+        "ComplexCalculatorTestDivide": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_24_multiply": {
+        "ComplexCalculatorTestMultiply": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_24_subtract": {
+        "ComplexCalculatorTestSubtract": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_25__save_cookies": {
+        "CookiesUtilTestSaveCookies": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_25_get_cookies": {
+        "CookiesUtilTestGetCookies": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_25_load_cookies": {
+        "CookiesUtilTestLoadCookies": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_26_process_csv_data": {
+        "CSVProcessorTestProcessCSVData": {
+            "errors": 1,
+            "failures": 4,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_26_read_csv": {
+        "CSVProcessorTestReadCSV": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_26_write_csv": {
+        "CSVProcessorTestWriteCSV": {
+            "errors": 5,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_27_add_currency_rate": {
+        "CurrencyConverterTestAddCurrencyRate": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_27_convert": {
+        "CurrencyConverterTestConvert": {
+            "errors": 1,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_27_get_supported_currencies": {
+        "CurrencyConverterTestGetSupportedCurrencies": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_27_update_currency_rate": {
+        "CurrencyConverterTestUpdateCurrencyRate": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_28_create_table": {
+        "DatabaseProcessorTestCreateTable": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 0
+        }
+    },
+    "ClassEval_28_delete_from_database": {
+        "DatabaseProcessorTestDeteleFromDatabase": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_28_insert_into_database": {
+        "DatabaseProcessorTestInsertIntoDatabase": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_28_search_database": {
+        "DatabaseProcessorTestSearchDatabase": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_29_mean": {
+        "DataStatisticsTestMean": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_29_median": {
+        "DataStatisticsTestMedian": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_29_mode": {
+        "DataStatisticsTestMode": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_2__convert_type": {
+        "ArgumentParserTestConvertType": {
+            "errors": 0,
+            "failures": 1,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_2_add_argument": {
+        "ArgumentParserTestAddArgument": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_2_get_argument": {
+        "ArgumentParserTestGetArgument": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_2_parse_arguments": {
+        "ArgumentParserTestParseArguments": {
+            "errors": 0,
+            "failures": 1,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_30_get_correlation": {
+        "DataStatistics2TestGetCorrelation": {
+            "errors": 5,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_30_get_max": {
+        "DataStatistics2TestGetMax": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_30_get_min": {
+        "DataStatistics2TestGetMin": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_30_get_std_deviation": {
+        "DataStatistics2TestGetStdDeviation": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_30_get_sum": {
+        "DataStatistics2TestGetSum": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_30_get_variance": {
+        "DataStatistics2TestGetVariance": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_31_correlation_coefficient": {
+        "DataStatistics4TestCorrelationCoefficient": {
+            "errors": 0,
+            "failures": 3,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_31_kurtosis": {
+        "DataStatistics4TestKurtosis": {
+            "errors": 5,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_31_pdf": {
+        "DataStatistics4TestPDF": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_31_skewness": {
+        "DataStatistics4TestSkewness": {
+            "errors": 0,
+            "failures": 3,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_32_caesar_decipher": {
+        "DecryptionUtilsTestCaesarDecipher": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 7
+        }
+    },
+    "ClassEval_32_rail_fence_decipher": {
+        "DecryptionUtilsTestRailFenceDecipher": {
+            "errors": 0,
+            "failures": 5,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_32_vigenere_decipher": {
+        "DecryptionUtilsTestVigenereDecipher": {
+            "errors": 0,
+            "failures": 6,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_33_BulkItemPromo": {
+        "DiscountStrategyTestBulkItemPromo": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_33_FidelityPromo": {
+        "DiscountStrategyTestFidelityPromo": {
+            "errors": 0,
+            "failures": 1,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_33_LargeOrderPromo": {
+        "DiscountStrategyTestLargeOrderPromo": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_33_due": {
+        "DiscountStrategyTestDue": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_33_total": {
+        "DiscountStrategyTestTotal": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_34__get_alignment_value": {
+        "DocFileHandlerTest": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 0
+        }
+    },
+    "ClassEval_34_add_heading": {
+        "DocFileHandlerTestAddHeading": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 0
+        }
+    },
+    "ClassEval_34_add_table": {
+        "DocFileHandlerTestAddTable": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 0
+        }
+    },
+    "ClassEval_34_read_text": {
+        "DocFileHandlerTestReadText": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 0
+        }
+    },
+    "ClassEval_34_write_text": {
+        "DocFileHandlerTestWriteText": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 0
+        }
+    },
+    "ClassEval_35_find_blank": {
+        "EightPuzzleTestFindBlank": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_35_get_possible_moves": {
+        "EightPuzzleTestGetPossibleMoves": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_35_move": {
+        "EightPuzzleTestMove": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_35_solve": {
+        "EightPuzzleTestSolve": {
+            "errors": 0,
+            "failures": 1,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_36_clear_inbox": {
+        "EmailClientTestClearInbox": {
+            "errors": 0,
+            "failures": 1,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_36_fetch": {
+        "EmailClientTestFetch": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_36_get_occupied_size": {
+        "EmailClientTestGetOccupiedSize": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_36_is_full_with_one_more_email": {
+        "EmailClientTestIsFullWithOneMoreEmail": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_36_send_to": {
+        "EmailClientTestSendTo": {
+            "errors": 0,
+            "failures": 5,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_37_caesar_cipher": {
+        "EncryptionUtilsTestCaesarCipher": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_37_rail_fence_cipher": {
+        "EncryptionUtilsTestRailFenceCipher": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_37_vigenere_cipher": {
+        "EncryptionUtilsTestVigenereCipher": {
+            "errors": 0,
+            "failures": 4,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_38_process_excel_data": {
+        "ExcelProcessorTestProcessExcelData": {
+            "errors": 5,
+            "failures": 1,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_38_read_excel": {
+        "ExcelProcessorTestReadExcel": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_38_write_excel": {
+        "ExcelProcessorTestWriteExcel": {
+            "errors": 5,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_39__calculate": {
+        "ExpressionCalculatorTestCalculateMethod": {
+            "errors": 6,
+            "failures": 0,
+            "testsRun": 7
+        }
+    },
+    "ClassEval_39_calculate": {
+        "ExpressionCalculatorTestCalculate": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_39_compare": {
+        "ExpressionCalculatorTestCompare": {
+            "errors": 0,
+            "failures": 5,
+            "testsRun": 7
+        }
+    },
+    "ClassEval_39_is_operator": {
+        "ExpressionCalculatorTestIsOperator": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_39_prepare": {
+        "ExpressionCalculatorTestPrepare": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_39_transform": {
+        "ExpressionCalculatorTestTransform": {
+            "errors": 0,
+            "failures": 3,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_3_count": {
+        "ArrangementCalculatorTestCount": {
+            "errors": 0,
+            "failures": 4,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_3_count_all": {
+        "ArrangementCalculatorTestCountAll": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_3_factorial": {
+        "ArrangementCalculatorTestFactorial": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_3_select": {
+        "ArrangementCalculatorTestSelect": {
+            "errors": 0,
+            "failures": 6,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_3_select_all": {
+        "ArrangementCalculatorTestSelectAll": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_40_calculate_calorie_intake": {
+        "FitnessTrackerTestCaculateCalorieIntake": {
+            "errors": 0,
+            "failures": 5,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_40_condition_judge": {
+        "FitnessTrackerTestConditionJudge": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_40_get_BMI": {
+        "FitnessTrackerTestGetBMI": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_41__check_five_in_a_row": {
+        "GomokuGameTestCheckFiveInARow": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_41_check_winner": {
+        "GomokuGameTestCheckWinner": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_41_make_move": {
+        "GomokuGameTestMakeMove": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_42_book_room": {
+        "HotelTestBookRoom": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_42_check_in": {
+        "HotelTestCheckIn": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_42_check_out": {
+        "HotelTestCheckOut": {
+            "errors": 4,
+            "failures": 1,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_42_get_available_rooms": {
+        "HotelTestAvailableRooms": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_43_add_employee": {
+        "HRManagementSystemTestAddEmployee": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_43_get_employee": {
+        "HRManagementSystemTestGetEmployee": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_43_list_employees": {
+        "HRManagementSystemTestListEmployees": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_43_remove_employee": {
+        "HRManagementSystemTestRemoveEmployee": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_43_update_employee": {
+        "HRManagementSystemTestUpdateEmployee": {
+            "errors": 0,
+            "failures": 1,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_44___format_line_feed": {
+        "HtmlUtilTestFormatLineFeed": {
+            "errors": 5,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_44_extract_code_from_html_text": {
+        "HtmlUtilTestExtractCodeFromHtmlText": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_44_format_line_html_text": {
+        "HtmlUtilTestFormatLineHtmlText": {
+            "errors": 0,
+            "failures": 11,
+            "testsRun": 12
+        }
+    },
+    "ClassEval_45_adjust_brightness": {
+        "ImageProcessorTestAdjustBrightness": {
+            "errors": 5,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_45_load_image": {
+        "ImageProcessorTestLoadImage": {
+            "errors": 5,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_45_resize_image": {
+        "ImageProcessorTestResizeImage": {
+            "errors": 5,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_45_rotate_image": {
+        "ImageProcessorTestRotateImage": {
+            "errors": 5,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_45_save_image": {
+        "ImageProcessorTestSaveImage": {
+            "errors": 5,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_46_interpolate_1d": {
+        "InterpolationTestInterpolate1d": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 7
+        }
+    },
+    "ClassEval_46_interpolate_2d": {
+        "InterpolationTestInterpolate2d": {
+            "errors": 5,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_47_get_binary": {
+        "IPAddressTestGetBinary": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_47_get_octets": {
+        "IPAddressTestGetOctets": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_47_is_valid": {
+        "IPAddressTestIsValid": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_48_get_hostname": {
+        "IpUtilTestGetHostname": {
+            "errors": 0,
+            "failures": 5,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_48_is_valid_ipv4": {
+        "IpUtilTestIsValidIpv4": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_48_is_valid_ipv6": {
+        "IpUtilTestIsValidIpv6": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_49_get_job_applicants": {
+        "JobMarketplaceTestGetJobApplicants": {
+            "errors": 5,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_49_post_job": {
+        "JobMarketplaceTestPostJob": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_49_remove_job": {
+        "JobMarketplaceTestRemoveJob": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_49_search_jobs": {
+        "JobMarketplaceTestSearchJobs": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_49_submit_resume": {
+        "JobMarketplaceTestSubmitResume": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_49_withdraw_resume": {
+        "JobMarketplaceTestWithdrawResume": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_4_add_course_score": {
+        "AssessmentSystemTestAddCourseScore": {
+            "errors": 1,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_4_add_student": {
+        "AssessmentSystemTestAddStudent": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_4_get_all_students_with_fail_course": {
+        "AssessmentSystemTestGetAllStudentsWithFailCourse": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_4_get_course_average": {
+        "AssessmentSystemTestGetCourseAverage": {
+            "errors": 1,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_4_get_gpa": {
+        "AssessmentSystemTestGetGPA": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_4_get_top_student": {
+        "AssessmentSystemTestGetTopStudent": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_50_process_json": {
+        "JSONProcessorTestProcessJsonExistingKey": {
+            "errors": 0,
+            "failures": 1,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_50_read_json": {
+        "JSONProcessorTestReadJson": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_50_write_json": {
+        "JSONProcessorTestWriteJson": {
+            "errors": 5,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_51_fleiss_kappa": {
+        "KappaCalculatorTestFleissKappa": {
+            "errors": 0,
+            "failures": 5,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_51_kappa": {
+        "KappaCalculatorTestKappa": {
+            "errors": 0,
+            "failures": 5,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_52_get_pos_tag": {
+        "LemmatizationTestGetPosTag": {
+            "errors": 5,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_52_lemmatize_sentence": {
+        "LemmatizationTestLemmatizeSentence": {
+            "errors": 5,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_52_remove_punctuation": {
+        "LemmatizationTestRemovePunctuation": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_53_add_word": {
+        "LongestWordTestAddWord": {
+            "errors": 0,
+            "failures": 2,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_53_find_longest_word": {
+        "LongestWordTestFindLongestWord": {
+            "errors": 0,
+            "failures": 2,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_54_create_board": {
+        "MahjongConnectTestCreateBoard": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_54_has_path": {
+        "MahjongConnectTestHasPath": {
+            "errors": 1,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_54_is_game_over": {
+        "MahjongConnectTestIsGameOver": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_54_is_valid_move": {
+        "MahjongConnectTestIsValidMove": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_54_remove_icons": {
+        "MahjongConnectTestRemoveIcons": {
+            "errors": 0,
+            "failures": 5,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_55_palindromic_length": {
+        "ManacherTestPalindromicLength": {
+            "errors": 0,
+            "failures": 2,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_55_palindromic_string": {
+        "ManacherTestPalindromicString": {
+            "errors": 5,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_56_accuracy": {
+        "MetricsCalculatorTestAccuracy": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_56_f1_score": {
+        "MetricsCalculatorTestF1Score": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_56_precision": {
+        "MetricsCalculatorTestPrecision": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_56_recall": {
+        "MetricsCalculatorTestRecall": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_56_update": {
+        "MetricsCalculatorTestUpdate": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_57_map": {
+        "MetricsCalculator2TestMap": {
+            "errors": 0,
+            "failures": 5,
+            "testsRun": 8
+        }
+    },
+    "ClassEval_57_mrr": {
+        "MetricsCalculator2TestMrr": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 8
+        }
+    },
+    "ClassEval_58_check_won": {
+        "MinesweeperGameTestCheckWon": {
+            "errors": 0,
+            "failures": 3,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_58_generate_mine_sweeper_map": {
+        "MinesweeperGameTestGenerateMineSweeperMap": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_58_generate_playerMap": {
+        "MinesweeperGameTestGeneratePlayerMap": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_58_sweep": {
+        "MinesweeperGameTestSweep": {
+            "errors": 0,
+            "failures": 4,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_59_add_movie": {
+        "MovieBookingSystemTestAddMovie": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_59_available_movies": {
+        "MovieBookingSystemTestAvailableMovies": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_59_book_ticket": {
+        "MovieBookingSystemTestBookTicket": {
+            "errors": 0,
+            "failures": 1,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_5_display": {
+        "AutomaticGuitarSimulatorTestDisplay": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 0
+        }
+    },
+    "ClassEval_5_interpret": {
+        "AutomaticGuitarSimulatorTestInterpret": {
+            "errors": 5,
+            "failures": 2,
+            "testsRun": 9
+        }
+    },
+    "ClassEval_60_create_table": {
+        "MovieTicketDBTestInsertTicket": {
+            "errors": 5,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_60_delete_ticket": {
+        "MovieTicketDBTest": {
+            "errors": 1,
+            "failures": 1,
+            "testsRun": 1
+        }
+    },
+    "ClassEval_60_insert_ticket": {
+        "MovieTicketDBTestSearchTicketsByCustomer": {
+            "errors": 5,
+            "failures": 5,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_60_search_tickets_by_customer": {
+        "MovieTicketDBTestDeleteTicket": {
+            "errors": 5,
+            "failures": 5,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_61_add_song": {
+        "MusicPlayerTestAddSong": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_61_play": {
+        "MusicPlayerTestPlay": {
+            "errors": 0,
+            "failures": 2,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_61_previous_song": {
+        "MusicPlayerTestPreviousSong": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_61_remove_song": {
+        "MusicPlayerTestRemoveSong": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_61_set_volume": {
+        "MusicPlayerTestSetVolume": {
+            "errors": 0,
+            "failures": 3,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_61_shuffle": {
+        "MusicPlayerTestShuffle": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_61_stop": {
+        "MusicPlayerTestStop": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_61_switch_song": {
+        "MusicPlayerTestSwitchSong": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_62_construct_stop_word_list": {
+        "NLPDataProcessorTestConstruct": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 1
+        }
+    },
+    "ClassEval_62_process": {
+        "NLPDataProcessorTestProcess": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_62_remove_stop_words": {
+        "NLPDataProcessorTestRemove": {
+            "errors": 0,
+            "failures": 4,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_63_calculate_word_frequency": {
+        "NLPDataProcessorTestCalculate": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_63_process": {
+        "NLPDataProcessorTestProcess": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_63_process_data": {
+        "NLPDataProcessorTestProcessData": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_64_binary_to_decimal": {
+        "NumberConverterTestBinaryToDecimal": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_64_decimal_to_binary": {
+        "NumberConverterTestDecimalToBinary": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_64_decimal_to_hex": {
+        "NumberConvertTestDecimalToHex": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_64_decimal_to_octal": {
+        "NumberConvertTestDecimalToOctal": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_64_hex_to_decimal": {
+        "NumberConvertTestHexToDecimal": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_64_octal_to_decimal": {
+        "NumberConvertTestOctalToDecimal": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_65_format": {
+        "NumberWordFormatterTestFormat": {
+            "errors": 1,
+            "failures": 1,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_65_format_string": {
+        "NumberWordFormatterTestFormatString": {
+            "errors": 1,
+            "failures": 5,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_65_parse_more": {
+        "NumberWordFormatterTestParseMore": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 4
+        }
+    },
+    "ClassEval_65_trans_three": {
+        "NumberWordFormatterTestTransThree": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_65_trans_two": {
+        "NumberWordFormatterTestTransTwo": {
+            "errors": 0,
+            "failures": 5,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_66_is_hex_char": {
+        "NumericEntityUnescaperTestIsHexChar": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_66_replace": {
+        "NumericEntityUnescaperTestReplace": {
+            "errors": 0,
+            "failures": 6,
+            "testsRun": 11
+        }
+    },
+    "ClassEval_67_add_dish": {
+        "OrderTestAddDish": {
+            "errors": 0,
+            "failures": 1,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_67_calculate_total": {
+        "OrderTestCalculateTotal": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_67_checkout": {
+        "OrderTestCheckout": {
+            "errors": 0,
+            "failures": 4,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_68_get_page": {
+        "PageUtilTestGetPage": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_68_get_page_info": {
+        "PageUtilTestGetPageInfo": {
+            "errors": 0,
+            "failures": 1,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_68_search": {
+        "PageUtilTestSearch": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_69_extract_text_from_pdfs": {
+        "PDFHandlerTestMergePdfs": {
+            "errors": 1,
+            "failures": 0,
+            "testsRun": 1
+        }
+    },
+    "ClassEval_69_merge_pdfs": {
+        "TestPDFHandler": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 0
+        }
+    },
+    "ClassEval_6_get": {
+        "AvgPartitionTestGet": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_6_setNum": {
+        "AvgPartitionTestSetNum": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_70__validate_name": {
+        "PersonRequestTestValidateName": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_70__validate_phoneNumber": {
+        "PersonRequestTestValidatePhoneNumber": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_70__validate_sex": {
+        "PersonRequestTestValidateSex": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_71_check_win": {
+        "PushBoxGameTestCheckWin": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 2
+        }
+    },
+    "ClassEval_71_init_game": {
+        "PushBoxGameTestInitGame": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 7
+        }
+    },
+    "ClassEval_71_move": {
+        "PushBoxGameTestMove": {
+            "errors": 1,
+            "failures": 0,
+            "testsRun": 7
+        }
+    },
+    "ClassEval_72_extract_email": {
+        "RegexUtilsTestExtractEmail": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_72_findall": {
+        "RegexUtilsTestFindall": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_72_generate_email_pattern": {
+        "RegexUtilsTestGenerateEmailPattern": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_72_generate_phone_number_pattern": {
+        "RegexUtilsTestGeneratePhoneNumberPattern": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_72_generate_split_sentences_pattern": {
+        "RegexUtilsTestGenerateSplitSentencesPattern": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_72_match": {
+        "RegexUtilsTestMatch": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_72_split": {
+        "RegexUtilsTestSplit": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_72_split_sentences": {
+        "RegexUtilsTestSplitSentences": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_72_sub": {
+        "RegexUtilsTestSub": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_72_validate_phone_number": {
+        "RegexUtilsTestValidatePhoneNumber": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_73_attack": {
+        "RPGCharacterTestAttack": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_73_gain_exp": {
+        "RPGCharacterTestGainExp": {
+            "errors": 0,
+            "failures": 5,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_73_heal": {
+        "RPGCharacterTestHeal": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_73_is_alive": {
+        "RPGCharacterTestIsAlive": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_73_level_up": {
+        "RPGCharacterTestLevelUp": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_74_add_white_list": {
+        "ServerTestAddWhiteList": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_74_del_white_list": {
+        "ServerTestDelWhiteList": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_74_recv": {
+        "ServerTestRecv": {
+            "errors": 0,
+            "failures": 3,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_74_send": {
+        "ServerTestSend": {
+            "errors": 0,
+            "failures": 5,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_74_show": {
+        "ServerTestShow": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_75_add_item": {
+        "ShoppingCartTestAddItem": {
+            "errors": 0,
+            "failures": 1,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_75_remove_item": {
+        "ShoppingCartTestRemoveItem": {
+            "errors": 1,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_75_total_price": {
+        "ShoppingCartTestTotalPrice": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_75_view_items": {
+        "ShoppingCartTestViewItems": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_76_add_user": {
+        "SignInSystemTestAddUser": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_76_all_not_signed_in": {
+        "SignInSystemTestAllNotSignedIn": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_76_all_signed_in": {
+        "SignInSystemTestAllSignedIn": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_76_check_sign_in": {
+        "SignInSystemTestCheckSignIn": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_76_sign_in": {
+        "SignInSystemTestSignIn": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_77_eat_food": {
+        "SnakeTestEatFood": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_77_move": {
+        "SnakeTestMove": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_77_random_food_position": {
+        "SnakeTestRandomFoodPosition": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_77_reset": {
+        "SnakeTestReset": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_78_count_words": {
+        "SplitSentenceTestCountWords": {
+            "errors": 0,
+            "failures": 3,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_78_process_text_file": {
+        "SplitSentenceTestProcessTextFile": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_78_split_sentences": {
+        "SplitSentenceTestSplitSentences": {
+            "errors": 0,
+            "failures": 1,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_79_delete": {
+        "SQLGeneratorTestDelete": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_79_insert": {
+        "SQLGeneratorTestInsert": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_79_select": {
+        "SQLGeneratorTestSelect": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_79_select_by_age_range": {
+        "SQLGeneratorTestSelectByAgeRange": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_79_select_female_under_age": {
+        "SQLGeneratorTestSelectFemaleUnderAge": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_79_update": {
+        "SQLGeneratorTestUpdate": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_7_check_balanced_brackets": {
+        "BalancedBracketsTestCheckBalancedBrackets": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 7
+        }
+    },
+    "ClassEval_7_clear_expr": {
+        "BalancedBracketsTestClearExpr": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_80_delete": {
+        "SQLQueryBuilderTestDetele": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_80_insert": {
+        "SQLQueryBuilderTestInsert": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_80_select": {
+        "SQLQueryBuilderTestSelect": {
+            "errors": 0,
+            "failures": 7,
+            "testsRun": 7
+        }
+    },
+    "ClassEval_80_update": {
+        "SQLQueryBuilderTestUpdate": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_81_correlation": {
+        "Statistics3TestCorrelation": {
+            "errors": 0,
+            "failures": 3,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_81_correlation_matrix": {
+        "Statistics3TestCorrelationMatrix": {
+            "errors": 0,
+            "failures": 1,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_81_mean": {
+        "Statistics3TestMean": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_81_median": {
+        "Statistics3TestMedian": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_81_mode": {
+        "Statistics3TestMode": {
+            "errors": 5,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_81_standard_deviation": {
+        "Statistics3TestStandardDeviation": {
+            "errors": 0,
+            "failures": 2,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_81_z_score": {
+        "Statistics3TestZScore": {
+            "errors": 2,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_82_add_stock": {
+        "StockPortfolioTrackerTestAddStock": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_82_buy_stock": {
+        "StockPortfolioTrackerTestBuyStock": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_82_calculate_portfolio_value": {
+        "StockPortfolioTrackerTestCalculatePortfolioValue": {
+            "errors": 0,
+            "failures": 5,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_82_get_portfolio_summary": {
+        "StockPortfolioTrackerTestGetPortfolioSummary": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_82_get_stock_value": {
+        "StockPortfolioTrackerTestGetStockValue": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_82_remove_stock": {
+        "StockPortfolioTrackerTestRemoveStock": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_82_sell_stock": {
+        "StockPortfolioTrackerTestSellStock": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_83_create_student_table": {
+        "StudentDatabaseProcessorTestInsertStudent": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 0
+        }
+    },
+    "ClassEval_83_delete_student_by_name": {
+        "StudentDatabaseProcessorTest": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 1
+        }
+    },
+    "ClassEval_83_insert_student": {
+        "StudentDatabaseProcessorTestSearchStudentByName": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_83_search_student_by_name": {
+        "StudentDatabaseProcessorTestDeleteStudentByName": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_84_process_file": {
+        "TextFileProcessorTestProcessFile": {
+            "errors": 5,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_84_read_file": {
+        "TextFileProcessorTestReadFile": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_84_read_file_as_json": {
+        "TextFileProcessorTestReadFileAsJson": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_84_write_file": {
+        "TextFileProcessorTestWriteFile": {
+            "errors": 5,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_8_deposit": {
+        "BankAccountTestDeposit": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_8_transfer": {
+        "BankAccountTestTransfer": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_8_view_balance": {
+        "BankAccountTestViewBalance": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_8_withdraw": {
+        "BankAccountTestWithdraw": {
+            "errors": 0,
+            "failures": 1,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_9_add": {
+        "BigNumCalculatorTestAdd": {
+            "errors": 4,
+            "failures": 1,
+            "testsRun": 5
+        }
+    },
+    "ClassEval_9_multiply": {
+        "BigNumCalculatorTestMultiply": {
+            "errors": 0,
+            "failures": 0,
+            "testsRun": 6
+        }
+    },
+    "ClassEval_9_subtract": {
+        "BigNumCalculatorTestSubtract": {
+            "errors": 0,
+            "failures": 5,
+            "testsRun": 5
+        }
+    }
+}
