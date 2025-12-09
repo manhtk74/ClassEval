@@ -148,8 +148,8 @@ class InferencePipeline:
             input_ids = self.tokenizer.encode(prompt, return_tensors = "pt", max_length = self.max_length, truncation = True).to(self.cuda)
             outputs = self.model.generate(input_ids, generation_config = self.generation_config, 
                                             max_length = self.max_length, do_sample = self.do_sample)
-            outputs = outputs[input_ids.shape[-1]:]
-            outputs = self.tokenizer.decode(outputs[0], skip_special_tokens = True)
+            outputs = outputs[0][input_ids.shape[-1]:]
+            outputs = self.tokenizer.decode(outputs, skip_special_tokens = True)
         return outputs
 
     def construct_prompt(self, strategy, info):
@@ -187,6 +187,23 @@ class InferencePipeline:
                 prompt = self.tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
         return prompt
 
+    def post_process_2(self, result):
+        if self.generation_strategy == GenerationStrategy.ZeroShot.value or self.generation_strategy == GenerationStrategy.InFile.value:
+            method_name = result['method_name']
+            prediction = result['prediction']
+            cont = result['cont']
+            del result['cont']
+            method_info = cont['methods_info']
+
+            class_code = '\n'.join(cont['import_statement']) + '\n' + cont['class_constructor']
+            for method in method_info:
+                if method['method_name'] == method_name:
+                    class_code += '\n\n' + prediction
+                else:
+                    class_code += '\n\n' + " "*4 + method['solution_code']
+            result['class_code'] = class_code
+
+
     def post_process(self, result):
         if self.generation_strategy == GenerationStrategy.Incremental.value:
             for cont in result:
@@ -207,10 +224,6 @@ class InferencePipeline:
                         method_code = InferenceUtil.extract_method_code(code, method_name)
                         class_code += '\n\n' + method_code
                     cont['predict'].append(class_code)
-        elif self.generation_strategy == GenerationStrategy.InFile.value:
-            pass
-        elif self.generation_strategy == GenerationStrategy.ZeroShot.value:
-            pass
 
     def pipeline(self):
         error_task_id_list = []
@@ -327,33 +340,36 @@ class InferencePipeline:
                     inst = f'please complete {method_name} method in the following class {class_name}\n\n {class_text}'
                     prompt = self.construct_prompt(GenerationStrategy.InFile, {"instruction": inst})
                     prediction = self.model_generate(prompt)
+                    prediction = InferenceUtil.extract_method_code(prediction, method_name)
                     result = {
                         "task_id": task_id,
                         "class_name": class_name,
                         "method_name": method_name,
-                        "prediction": prediction
+                        "prediction": prediction,
+                        "cont": cont
                     }
-
+                    self.post_process_2(result)
                     self.append_result(result)
-
         elif self.generation_strategy == GenerationStrategy.ZeroShot.value:
             for cont in tqdm(self.file_cont):
                 task_id = cont['task_id']
                 class_name = cont['class_name']
-                method_info = cont['method_info']
+                method_info = cont['methods_info']
                 for method in method_info:
                     method_name = method['method_name']
                     method_description = method['method_description']
                     inst = f'please complete {method_name} method in the following class {class_name}\n\n {method_description}' # User question
                     prompt = self.construct_prompt(GenerationStrategy.ZeroShot, {"instruction": inst})
                     prediction = self.model_generate(prompt)
+                    prediction = InferenceUtil.extract_method_code(prediction, method_name)
                     result = {
                         "task_id": task_id,
                         "class_name": class_name,
                         "method_name": method_name,
-                        "prediction": prediction
+                        "prediction": prediction,
+                        "cont": cont
                     }
-
+                    self.post_process_2(result)
                     self.append_result(result)
                     
         else:

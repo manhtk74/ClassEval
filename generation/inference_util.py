@@ -80,7 +80,8 @@ class InferenceUtil:
     @staticmethod
     def extract_method_code(code, method_name):
         # extract code of method {method_name} from {code}
-        output_split_identifier_list = ["### Response:", "@@ Response:", "[/INST]"]
+        # output_split_identifier_list = ["### Response:", "@@ Response:", "[/INST]"]
+        output_split_identifier_list = ['assistant\n']
         for identifier in output_split_identifier_list:
             if identifier in code:
                 code = code.split(identifier)[1]
