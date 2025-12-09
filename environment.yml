@@ -36,6 +36,7 @@ dependencies:
       - click==8.1.8
       - colorama==0.4.6
       - dotenv==0.9.9
+      - docx
       - et-xmlfile==2.0.0
       - filelock==3.16.1
       - frozenlist==1.5.0

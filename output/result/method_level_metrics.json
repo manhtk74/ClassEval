@@ -1,0 +1,13 @@
+{
+    "Qwen_zeroshot": {
+        "error_count": 109,
+        "error_rate": 0.3177842565597668,
+        "fail_count": 27,
+        "fail_rate": 0.07871720116618076,
+        "partial_success_count": 70,
+        "partial_success_rate": 0.20408163265306123,
+        "success_count": 137,
+        "success_rate": 0.39941690962099125,
+        "total_methods": 343
+    }
+}
